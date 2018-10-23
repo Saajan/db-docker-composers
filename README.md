@@ -76,12 +76,6 @@ Now in order to do anything to the MongoDB instance's collections, databases, et
 $ docker-compose exec mongoDb mongo -u devadmin -p devadmin --authenticationDatabase "admin"
 ```
 
-For more information see the full article:
-
-## [Docker for a Fresh MySQL or MongoDB Instance in Any Project](http://start.jcolemorrison.com/docker-fresh-mysql-or-mongodb-instances-in-projects/)
-
-
-
 
 
 

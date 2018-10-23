@@ -1,7 +1,4 @@
-# Version 3 only recently came out, so we'll stick with 2 since it's
-# tried and true at this point.  This would convert directly over to
-# Version 3 anyway.
-version: '2'
+version: '3'
 
 services:
   # Name of the service as Docker will reference.
