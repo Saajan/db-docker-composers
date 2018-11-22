@@ -1,11 +1,11 @@
-version: '3'
+version: '3.1'
 
 services:
   # Name our service will be known by
   mongoDb:
 
     # version of mongo we'll use
-    image: mongo:3.4
+    image: mongo:3.5
 
     # local port mapping to container port.  Remember, this
     # doesn't have to be 27017, you could make this availble
@@ -19,7 +19,7 @@ services:
       - devmongo:/data/db
 
     # OPTIONAL: This enforces the need for authentication
-    command: mongod --auth
+    # command: mongod --auth
 
 volumes:
   devmongo:
